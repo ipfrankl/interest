@@ -1,0 +1,10 @@
+class Drill
+{
+  public static void main(String[] args)
+  {
+    System.out.println("Drill(s):");
+    System.out.println("1. Shooting");
+    System.out.println("2. Layups");
+    System.out.println("3. Weave");
+  }
+}
