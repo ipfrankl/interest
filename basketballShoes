@@ -1,0 +1,11 @@
+class BasketballShoes
+{
+  public void cushion()
+  {
+    System.out.println("Cushion protects the sole");
+  }
+  public void highAnkle()
+  {
+    System.out.println("Protects the ankle");
+  }
+}
