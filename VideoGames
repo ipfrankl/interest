@@ -1,0 +1,27 @@
+class VideoGames
+{
+  private int games;
+  private int numOfPlayers;
+  public VideoGames(int games)
+  {
+    this.games = games;
+  }
+  public boolean lessThan(int count)
+  {
+    if (count < numOfPlayers)
+      return true;
+    else
+      return false;
+  }
+  public boolean equals(int count)
+  {
+    if (count == numOfPlayers)
+      return true;
+    else
+      return false;
+  }
+  public String toString()
+  {
+    return numOfPlayers;
+  }
+}
